@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: If you use this software or its aggregate analytical outputs, cite this repository
+  release and the associated manuscript.
+title: 'Code and reproducibility package for: From Accuracy to Trustworthiness: Grouped
+  Validation, Applicability-Domain Mapping, and Reliability-Aware Optimization for
+  Machine-Learning-Based Fixed-Bed Biomass Pyrolysis Yield Prediction'
+type: software
+version: 1.0.0-rc4
+date-released: '2026-07-03'
+authors:
+- family-names: Shahnouri
+  given-names: Seyed Ali
+  affiliation: Department of Biosystems Engineering, Sari University of Agricultural
+    Sciences and Natural Resources, Sari, Iran
+- family-names: Nazari
+  given-names: Mousa
+  affiliation: Department of Computer Science, Faculty of Science, University of Science
+    and Technology of Mazandaran, Behshahr, Iran
+  email: nazari.mousa@mzust.ac.ir
+license: MIT
+keywords:
+- biomass pyrolysis
+- machine learning
+- grouped validation
+- conformal prediction
+- applicability domain
+- reliability-aware screening
+abstract: Python workflow and aggregate reproducibility outputs for grouped validation,
+  conformal calibration, applicability-domain mapping, and reliability-aware screening
+  of fixed-bed biomass pyrolysis yield models.
+contact:
+- family-names: Nazari
+  given-names: Mousa
+  email: nazari.mousa@mzust.ac.ir
+  affiliation: Department of Computer Science, Faculty of Science, University of Science
+    and Technology of Mazandaran, Behshahr, Iran

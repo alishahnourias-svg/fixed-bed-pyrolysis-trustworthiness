@@ -1,0 +1,50 @@
+column,data_type_or_role,unit,description,public_values_included
+feedstock,categorical,,Harmonized exact feedstock label.,No
+carbon,numeric,%,Reported carbon content from ultimate analysis; reporting basis follows the source record.,No
+hydrogen,numeric,%,Reported hydrogen content from ultimate analysis; reporting basis follows the source record.,No
+nitrogen,numeric,%,Reported nitrogen content from ultimate analysis; reporting basis follows the source record.,No
+oxygen,numeric,%,Reported oxygen content from ultimate analysis; reporting basis follows the source record.,No
+raw_material_supply_g,numeric,g,Reported raw-material charge or supply.,No
+temperature_c,numeric,°C,Reported pyrolysis temperature.,No
+residence_time_min,numeric,min,Reported residence time.,No
+gas_flow_rate_l_min,numeric,L/min,Reported carrier-gas flow rate.,No
+heating_rate_c_min,numeric,°C/min,Reported heating rate.,No
+moisture,numeric,%,Reported moisture content; basis follows the source record.,No
+volatile_matter,numeric,%,Reported volatile-matter content.,No
+ash,numeric,%,Reported ash content.,No
+fixed_carbon,numeric,%,Reported fixed-carbon content.,No
+particle_size_mm,numeric,mm,Reported particle size or harmonized representative particle size.,No
+biochar_yield,numeric target,%,Reported biochar yield.,No
+bio_oil_yield,numeric target,%,Reported bio-oil yield.,No
+reference_1,integer identifier,,Primary literature-reference index inherited from the source workbook.,No
+reference_2,integer identifier,,Secondary literature-reference index inherited from the source workbook.,No
+feedstock_raw,categorical audit field,,Feedstock label before harmonization.,No
+carbon_conversion_flag,boolean audit flag,,True when the original carbon cell required non-trivial cleaning or could not be converted conservatively.,No
+hydrogen_conversion_flag,boolean audit flag,,True when the original hydrogen cell required non-trivial cleaning or could not be converted conservatively.,No
+nitrogen_conversion_flag,boolean audit flag,,True when the original nitrogen cell required non-trivial cleaning or could not be converted conservatively.,No
+oxygen_conversion_flag,boolean audit flag,,True when the original oxygen cell required non-trivial cleaning or could not be converted conservatively.,No
+raw_material_supply_g_conversion_flag,boolean audit flag,,True when the original raw_material_supply_g cell required non-trivial cleaning or could not be converted conservatively.,No
+temperature_c_conversion_flag,boolean audit flag,,True when the original temperature_c cell required non-trivial cleaning or could not be converted conservatively.,No
+residence_time_min_conversion_flag,boolean audit flag,,True when the original residence_time_min cell required non-trivial cleaning or could not be converted conservatively.,No
+gas_flow_rate_l_min_conversion_flag,boolean audit flag,,True when the original gas_flow_rate_l_min cell required non-trivial cleaning or could not be converted conservatively.,No
+heating_rate_c_min_conversion_flag,boolean audit flag,,True when the original heating_rate_c_min cell required non-trivial cleaning or could not be converted conservatively.,No
+moisture_conversion_flag,boolean audit flag,,True when the original moisture cell required non-trivial cleaning or could not be converted conservatively.,No
+volatile_matter_conversion_flag,boolean audit flag,,True when the original volatile_matter cell required non-trivial cleaning or could not be converted conservatively.,No
+ash_conversion_flag,boolean audit flag,,True when the original ash cell required non-trivial cleaning or could not be converted conservatively.,No
+fixed_carbon_conversion_flag,boolean audit flag,,True when the original fixed_carbon cell required non-trivial cleaning or could not be converted conservatively.,No
+particle_size_mm_conversion_flag,boolean audit flag,,True when the original particle_size_mm cell required non-trivial cleaning or could not be converted conservatively.,No
+biochar_yield_conversion_flag,boolean audit flag,,True when the original biochar_yield cell required non-trivial cleaning or could not be converted conservatively.,No
+bio_oil_yield_conversion_flag,boolean audit flag,,True when the original bio_oil_yield cell required non-trivial cleaning or could not be converted conservatively.,No
+source_group,group identifier,,"Reference-based group: reference_1 when available, otherwise reference_2.",No
+source_confidence,categorical audit field,,Indicates whether source_group came from reference_1 or was reconstructed from reference_2.,No
+source_pair_group,group identifier,,Conservative concatenation of reference_1 and reference_2 for sensitivity analysis.,No
+ultimate_sum,numeric audit field,%,"Row-wise sum of carbon, hydrogen, nitrogen, and oxygen when all are available.",No
+proximate_sum,numeric audit field,%,"Row-wise sum of moisture, volatile matter, ash, and fixed carbon when all are available.",No
+ultimate_outside_80_110,boolean audit flag,,True when ultimate_sum is outside 80–110.,No
+proximate_outside_90_110,boolean audit flag,,True when proximate_sum is outside 90–110.,No
+full_duplicate_flag,boolean audit flag,,True for rows duplicated across all columns at the cleaning stage.,No
+duplicate_input_flag,boolean audit flag,,True for repeated feedstock-and-input combinations.,No
+has_biochar,boolean availability flag,,True when biochar_yield is available.,No
+has_bio_oil,boolean availability flag,,True when bio_oil_yield is available.,No
+has_both_targets,boolean availability flag,,True when both target yields are available.,No
+feedstock_family,categorical feature,,Broader feedstock-family label defined in the public mapping table.,No

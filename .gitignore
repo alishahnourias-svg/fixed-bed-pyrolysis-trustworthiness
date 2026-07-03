@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+reproduction_run/
+reproduction_full/
+*.log
+SI_Data.xlsx
+SI_Data_References.xlsx
+clean_audit_data*.xlsx
+biochar_dataset*.xlsx
+bio_oil_dataset*.xlsx
+paired_dataset*.xlsx
+
+# Local publication artifacts
+*.zip

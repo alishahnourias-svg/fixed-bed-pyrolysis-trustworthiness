@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-rc4",
+  "record_type": "public_code_and_reproducibility",
+  "created_on": "2026-07-03",
+  "row_level_files_included": false,
+  "raw_third_party_source_files_included": false,
+  "active_python_scripts": 12,
+  "public_excel_files": 31,
+  "png_figures": 7,
+  "svg_figures": 7,
+  "syntax_check": "pass",
+  "sensitive_header_audit": "pass",
+  "github_ready": true,
+  "github_actions_audit": true,
+  "publisher_scripts": [
+    "tools/publish_to_github.ps1",
+    "tools/publish_to_github.sh"
+  ]
+}

@@ -1,0 +1,71 @@
+feedstock,feedstock_family
+Casava,agricultural_residue
+Corncob,agricultural_residue
+Cotton Stalk,agricultural_residue
+Garlic Stem,agricultural_residue
+Jerusalem Artichoke Stick,agricultural_residue
+Jute Dust,agricultural_residue
+Laurel Residues,agricultural_residue
+Lemon Grass,agricultural_residue
+Miscanthus,agricultural_residue
+Oat Straw,agricultural_residue
+Palm Fiber,agricultural_residue
+Pepper Stem,agricultural_residue
+Rapeseed Stalk,agricultural_residue
+Reed,agricultural_residue
+Rice Husk,agricultural_residue
+Sesame Stalk,agricultural_residue
+Sugarcane Bagasse,agricultural_residue
+Switchgrass,agricultural_residue
+Tea Waste,agricultural_residue
+Timothy Grass,agricultural_residue
+Tobacco Residues,agricultural_residue
+Wheat Straw,agricultural_residue
+Algae,algae
+Food Waste,food_fruit_waste
+Grape Bagasse,food_fruit_waste
+Lychee,food_fruit_waste
+Olive Husk,food_fruit_waste
+Orange Pomace,food_fruit_waste
+Tomato Peel,food_fruit_waste
+Manure,manure_sludge
+Oil Sludge,manure_sludge
+Poultry Litter,manure_sludge
+Sewage Sludge,manure_sludge
+Babool Seed,oilseed_residue
+Calophyllum Inophyllum,oilseed_residue
+Jatropha Cake,oilseed_residue
+Karanja Seed,oilseed_residue
+Kasaud Seed,oilseed_residue
+Linseed,oilseed_residue
+Mahua Seed,oilseed_residue
+Mesua seed,oilseed_residue
+Milk Thistle Seeds,oilseed_residue
+Olive Kernel,oilseed_residue
+Pistacia Lentiscus Seeds,oilseed_residue
+Pongamia Seed,oilseed_residue
+Safflower Seed,oilseed_residue
+Soybean Cake,oilseed_residue
+Sunflower Bagasse,oilseed_residue
+Avocado Seed,other_biomass
+Eremurus Spectabilis,other_biomass
+Euphorbia Rigida,other_biomass
+Ferula Orientalis L.,other_biomass
+Liquorice,other_biomass
+Cellulose,pure_component
+Hemicellulose(Xylan),pure_component
+Hemicellulose(xylan),pure_component
+Lignin,pure_component
+Apricot Kernel Shell,shell_husk_kernel
+Cherry Seed,shell_husk_kernel
+Coconut Waste,shell_husk_kernel
+Hazelnut Cupula,shell_husk_kernel
+Hornbeam Shell,shell_husk_kernel
+Palm Shell,shell_husk_kernel
+Peanut Shell,shell_husk_kernel
+Pomegranate Seeds,shell_husk_kernel
+Walnut Shell,shell_husk_kernel
+Bamboo,woody_biomass
+Oak,woody_biomass
+Pine,woody_biomass
+Wood,woody_biomass

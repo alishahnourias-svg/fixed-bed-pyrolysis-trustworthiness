@@ -1,0 +1,6 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The author-generated tables, aggregate analytical outputs, figure-source data, figures, and original documentation identified in LICENSES.md are licensed under CC BY 4.0. You are free to share and adapt those materials for any purpose, provided appropriate credit is given, a link to the license is supplied, and changes are indicated.
+
+License text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/

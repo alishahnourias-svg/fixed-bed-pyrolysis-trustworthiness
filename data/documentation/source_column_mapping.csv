@@ -1,0 +1,20 @@
+source_column,harmonized_column
+Feed Stock Type,feedstock
+Carbon,carbon
+Hydrogen,hydrogen
+Nitrogen,nitrogen
+Oxygen,oxygen
+Raw Material Supply (g),raw_material_supply_g
+Temperature (C ),temperature_c
+Residence Time (min),residence_time_min
+Gas Flow Rate (L/min),gas_flow_rate_l_min
+Heating Rate (C/min),heating_rate_c_min
+Moisture (%),moisture
+VM,volatile_matter
+Ash,ash
+FC,fixed_carbon
+Particle Size (mm),particle_size_mm
+Biochar Yield (%),biochar_yield
+Bio Oil Yield (%),bio_oil_yield
+References 1,reference_1
+References 2,reference_2

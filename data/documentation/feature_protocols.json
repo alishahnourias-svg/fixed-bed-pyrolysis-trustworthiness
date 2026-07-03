@@ -1,0 +1,95 @@
+{
+  "numeric_features": [
+    "carbon",
+    "hydrogen",
+    "nitrogen",
+    "oxygen",
+    "moisture",
+    "volatile_matter",
+    "fixed_carbon",
+    "ash",
+    "particle_size_mm",
+    "temperature_c",
+    "heating_rate_c_min",
+    "gas_flow_rate_l_min",
+    "residence_time_min",
+    "raw_material_supply_g"
+  ],
+  "targets": {
+    "biochar": "biochar_yield",
+    "bio_oil": "bio_oil_yield"
+  },
+  "protocols": {
+    "A_numeric_only": {
+      "numeric": [
+        "carbon",
+        "hydrogen",
+        "nitrogen",
+        "oxygen",
+        "moisture",
+        "volatile_matter",
+        "fixed_carbon",
+        "ash",
+        "particle_size_mm",
+        "temperature_c",
+        "heating_rate_c_min",
+        "gas_flow_rate_l_min",
+        "residence_time_min",
+        "raw_material_supply_g"
+      ],
+      "categorical": [],
+      "description": "Composition and operating variables only; no feedstock identity."
+    },
+    "B_feedstock_identity": {
+      "numeric": [
+        "carbon",
+        "hydrogen",
+        "nitrogen",
+        "oxygen",
+        "moisture",
+        "volatile_matter",
+        "fixed_carbon",
+        "ash",
+        "particle_size_mm",
+        "temperature_c",
+        "heating_rate_c_min",
+        "gas_flow_rate_l_min",
+        "residence_time_min",
+        "raw_material_supply_g"
+      ],
+      "categorical": [
+        "feedstock"
+      ],
+      "description": "Composition and operating variables plus exact feedstock identity."
+    },
+    "C_feedstock_family": {
+      "numeric": [
+        "carbon",
+        "hydrogen",
+        "nitrogen",
+        "oxygen",
+        "moisture",
+        "volatile_matter",
+        "fixed_carbon",
+        "ash",
+        "particle_size_mm",
+        "temperature_c",
+        "heating_rate_c_min",
+        "gas_flow_rate_l_min",
+        "residence_time_min",
+        "raw_material_supply_g"
+      ],
+      "categorical": [
+        "feedstock_family"
+      ],
+      "description": "Composition and operating variables plus broader feedstock-family taxonomy."
+    }
+  },
+  "random_state": 42,
+  "nominal_outer_splits": 5,
+  "notes": [
+    "All imputers, scalers, and encoders are fitted inside each training fold.",
+    "Exact feedstock identity is excluded from protocol A.",
+    "Protocol C uses the broader feedstock-family taxonomy."
+  ]
+}
