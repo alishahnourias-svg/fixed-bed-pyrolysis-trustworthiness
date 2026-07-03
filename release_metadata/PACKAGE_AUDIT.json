@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-rc4",
+  "version": "1.0.0",
   "record_type": "public_code_and_reproducibility",
   "created_on": "2026-07-03",
   "row_level_files_included": false,
@@ -15,5 +15,8 @@
   "publisher_scripts": [
     "tools/publish_to_github.ps1",
     "tools/publish_to_github.sh"
-  ]
+  ],
+  "github_repository": "https://github.com/alishahnourias-svg/fixed-bed-pyrolysis-trustworthiness",
+  "restricted_record_doi": "10.5281/zenodo.21175530",
+  "public_zenodo_doi_status": "pending GitHub release archival"
 }

@@ -6,7 +6,7 @@
 
 **Authors:** Seyed Ali Shahnouri; Mousa Nazari (corresponding author: `nazari.mousa@mzust.ac.ir`)
 
-**Status:** GitHub-ready release candidate `1.0.0-rc4`. Replace DOI placeholders and insert the final GitHub URL and the two Zenodo DOIs, then change the version to `1.0.0` immediately before the DOI-bearing release.
+**Status:** Public software release `1.0.0`, prepared for DOI-bearing archival through the Zenodo–GitHub integration.
 
 ## Scope of this public record
 
@@ -52,9 +52,11 @@ Code is MIT licensed. Author-generated tables, aggregate outputs, figures, figur
 
 ## Companion restricted record
 
-Processed row-level data and record-level audit outputs: `[RESTRICTED ZENODO DOI]`.
+Processed row-level data and record-level audit outputs are deposited under restricted access at [10.5281/zenodo.21175530](https://doi.org/10.5281/zenodo.21175530).
 
-Public code and aggregate-output DOI: `[PUBLIC ZENODO DOI]`.
+Development repository: [https://github.com/alishahnourias-svg/fixed-bed-pyrolysis-trustworthiness](https://github.com/alishahnourias-svg/fixed-bed-pyrolysis-trustworthiness).
+
+The version-specific public software DOI will be minted by Zenodo after GitHub release `v1.0.0` is published.
 
 
 ## Publish this package to GitHub
