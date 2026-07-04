@@ -2,11 +2,11 @@
 
 ## Associated manuscript
 
-*From Accuracy to Trustworthiness: Grouped Validation, Applicability-Domain Mapping, and Reliability-Aware Optimization for Machine-Learning-Based Fixed-Bed Biomass Pyrolysis Yield Prediction*
+*From Accuracy to Trustworthiness: Grouped Validation, Applicability-Domain Mapping, and Reliability-Aware Scenario Screening for Machine-Learning-Based Fixed-Bed Biomass Pyrolysis Yield Prediction*
 
 **Authors:** Seyed Ali Shahnouri; Mousa Nazari (corresponding author: `nazari.mousa@mzust.ac.ir`)
 
-**Status:** Public software release `1.0.0`, prepared for DOI-bearing archival through the Zenodo–GitHub integration.
+**Status:** Public software release `1.0.0`, archived in Zenodo under DOI `10.5281/zenodo.21176727`.
 
 ## Scope of this public record
 
@@ -56,7 +56,7 @@ Processed row-level data and record-level audit outputs are deposited under rest
 
 Development repository: [https://github.com/alishahnourias-svg/fixed-bed-pyrolysis-trustworthiness](https://github.com/alishahnourias-svg/fixed-bed-pyrolysis-trustworthiness).
 
-The version-specific public software DOI will be minted by Zenodo after GitHub release `v1.0.0` is published.
+The version-specific public software release is archived in Zenodo under DOI 10.5281/zenodo.21176727.
 
 
 ## Publish this package to GitHub
