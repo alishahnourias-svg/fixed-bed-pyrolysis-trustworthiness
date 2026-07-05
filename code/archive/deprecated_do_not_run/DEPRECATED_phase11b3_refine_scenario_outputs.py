@@ -3,7 +3,7 @@
 # Project:
 # From Accuracy to Trustworthiness:
 # Grouped Validation, Applicability-Domain Mapping,
-# and Reliability-Aware Optimization for ML-Based
+# and Reliability-Aware Scenario Screening for ML-Based
 # Fixed-Bed Biomass Pyrolysis Yield Prediction
 # ============================================================
 #
