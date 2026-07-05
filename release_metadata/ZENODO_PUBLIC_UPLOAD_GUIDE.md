@@ -1,6 +1,6 @@
 # Zenodo settings — public code and reproducibility record
 
-- **Title:** Code and reproducibility package for: From Accuracy to Trustworthiness: Grouped Validation, Applicability-Domain Mapping, and Reliability-Aware Optimization for Machine-Learning-Based Fixed-Bed Biomass Pyrolysis Yield Prediction
+- **Title:** Code and reproducibility package for: From Accuracy to Trustworthiness: Grouped Validation, Applicability-Domain Mapping, and Reliability-Aware Scenario Screening for Machine-Learning-Based Fixed-Bed Biomass Pyrolysis Yield Prediction
 - **Resource type:** Software
 - **Version:** 1.0.0 (use only for the final release)
 - **Files visibility:** Public

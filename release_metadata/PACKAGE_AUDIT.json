@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "record_type": "public_code_and_reproducibility",
   "created_on": "2026-07-03",
   "row_level_files_included": false,
@@ -18,5 +18,8 @@
   ],
   "github_repository": "https://github.com/alishahnourias-svg/fixed-bed-pyrolysis-trustworthiness",
   "restricted_record_doi": "10.5281/zenodo.21175530",
-  "public_zenodo_doi_status": "pending GitHub release archival"
+  "public_zenodo_doi_status": "pending GitHub release archival",
+  "associated_manuscript_title": "From Accuracy to Trustworthiness: Grouped Validation, Applicability-Domain Mapping, and Reliability-Aware Scenario Screening for Machine-Learning-Based Fixed-Bed Biomass Pyrolysis Yield Prediction",
+  "zenodo_concept_doi": "10.5281/zenodo.21176726",
+  "release_status": "prepared for v1.0.2 archival"
 }
